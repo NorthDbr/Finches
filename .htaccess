@@ -4,4 +4,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
-RewriteRule ^home home.html[NC]
+RewriteRule ^home index.html[NC]
